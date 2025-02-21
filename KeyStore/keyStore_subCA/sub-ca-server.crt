@@ -1,0 +1,143 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            fa:3a:8d:7e:a3:7a:c3:16:e6:c1:d5:ba:14:0c:24:2f
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=ES, O=teleco, CN=Root CA
+        Validity
+            Not Before: Jan 10 14:21:16 2025 GMT
+            Not After : Jan  8 14:21:16 2035 GMT
+        Subject: C=ES, O=teleco, CN=Sub CA Server
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:d0:35:f9:b2:78:6f:fe:c0:29:75:01:04:44:6a:
+                    85:df:e8:0c:59:75:72:1d:d6:5a:3f:3b:cc:bf:9a:
+                    47:a3:83:09:34:c8:a8:1b:62:3f:86:5f:44:56:93:
+                    84:22:45:de:23:83:df:c3:3f:27:dc:d2:11:00:f8:
+                    fc:38:13:f6:3c:d4:42:21:ed:3b:d7:01:74:56:14:
+                    4d:a0:eb:c5:a2:0c:92:d4:ee:7e:74:46:b3:1b:e2:
+                    c6:80:d5:32:d9:f4:15:5b:1f:db:c6:8e:ff:bc:8c:
+                    51:4d:80:fe:5d:84:3c:8e:7d:d9:20:a8:da:e4:4f:
+                    d4:8c:41:92:e0:ed:da:ec:df:6a:20:c5:25:04:91:
+                    aa:2b:51:16:b6:f6:60:8a:e9:48:33:45:ae:03:2c:
+                    a3:4b:7f:5b:e8:68:c1:77:a4:30:f4:e7:ff:70:11:
+                    47:e5:4e:6b:cf:e7:c7:26:79:32:ad:62:10:f2:12:
+                    2a:10:e3:2e:d8:07:ef:d2:93:95:02:95:bc:ff:4b:
+                    0e:47:59:c0:99:24:84:e2:11:f6:c0:ac:5a:71:83:
+                    e6:f2:62:21:2e:03:e1:e4:b8:a8:ac:24:ce:8d:a0:
+                    43:b0:54:b8:83:e2:26:70:74:70:3c:87:b0:6d:a2:
+                    9b:f1:31:94:41:d6:8f:c8:d2:6f:28:88:09:55:62:
+                    30:56:63:a4:2f:8a:e3:8f:c5:ee:da:2a:63:11:10:
+                    0f:15:15:fc:46:f8:9e:42:e5:be:b0:d2:6f:cb:50:
+                    a4:f3:dc:72:3d:2f:03:e5:c0:3e:0c:4c:93:ae:98:
+                    09:a3:f0:93:bc:86:78:f2:7f:24:fe:8e:01:f3:ee:
+                    40:fe:51:13:61:f5:36:b4:be:ea:65:6b:7e:f5:60:
+                    d2:bf:f4:fd:03:48:a0:b1:33:27:e9:23:b5:e0:ca:
+                    64:66:e9:e1:57:a3:5f:45:ea:f2:84:74:68:68:8d:
+                    4a:e6:7e:74:8e:0f:27:d9:c3:0c:9f:b4:37:3b:93:
+                    c1:78:78:98:01:21:d5:68:04:7b:ee:af:2d:6a:6c:
+                    7c:43:eb:a6:3b:26:f7:f5:bf:1a:16:b3:ed:3e:16:
+                    e5:09:5f:61:48:0f:3d:ab:e8:27:0c:be:2a:49:bd:
+                    f6:98:d4:93:8b:7b:79:8a:c1:ac:b9:7f:2d:26:80:
+                    a3:47:16:27:92:76:6e:d9:7b:ea:25:6e:4d:54:69:
+                    46:eb:aa:d5:f8:9d:e2:04:81:57:28:86:52:ba:db:
+                    59:3d:50:ba:a4:39:94:08:d8:9f:b7:0e:53:9b:74:
+                    b0:4a:b8:89:83:38:66:05:b4:1a:7e:b3:55:f6:e9:
+                    41:7f:62:a0:15:ad:2f:ff:45:26:c3:fd:46:b0:44:
+                    7b:9c:69
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            Authority Information Access: 
+                CA Issuers - URI:http://root-ca.teleco.uvigo/root-ca.crt
+                OCSP - URI:http://ocsp.root-ca.teleco.uvigo:9080
+            X509v3 Authority Key Identifier: 
+                FE:23:03:A3:17:B5:8D:98:93:CA:96:61:1F:DB:E4:AE:F9:2A:29:17
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:0
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://root-ca.teleco.uvigo/root-ca.crl
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, TLS Web Server Authentication
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Name Constraints: 
+                Permitted:
+                  DNS:example.com
+                  DNS:example.org
+                Excluded:
+                  IP:0.0.0.0/0.0.0.0
+                  IP:0:0:0:0:0:0:0:0/0:0:0:0:0:0:0:0
+            X509v3 Subject Key Identifier: 
+                9E:06:8E:53:76:C9:3A:2C:38:A4:D8:30:F4:B6:90:30:7C:30:1D:AB
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        97:45:07:6c:e8:94:5c:52:dd:58:b5:ac:e2:02:c8:54:b1:a5:
+        e8:53:9e:79:2b:9b:af:2f:01:bb:bb:54:91:1c:88:6c:2e:aa:
+        57:65:c1:dd:6e:3d:9e:79:a3:70:1e:8d:a3:02:bb:59:22:52:
+        48:79:ae:4d:e2:3d:ee:33:39:93:ff:de:9f:f1:42:89:4e:25:
+        f4:1c:02:86:1b:17:ea:3c:d0:15:89:00:36:cc:b1:0f:23:cd:
+        f2:38:1f:c8:bd:7a:d1:2d:e2:56:25:da:2d:9e:9c:d7:d4:7d:
+        1f:19:9a:ec:68:49:ce:c3:4e:93:40:b6:93:81:94:37:81:ec:
+        2d:7f:23:37:7b:02:b4:d1:00:b1:80:e2:b4:ee:be:ae:60:c5:
+        ae:63:b0:95:1f:98:6c:0a:94:61:d0:be:d3:ac:e9:53:85:40:
+        df:67:9c:66:33:ec:1a:6a:f7:60:e0:38:93:1f:d6:7f:db:3c:
+        76:57:83:fb:a5:17:94:0d:81:17:55:a2:5d:10:44:84:f9:5d:
+        1e:d2:af:f0:9f:75:e4:15:64:51:4b:e5:84:43:26:5d:05:20:
+        2e:f2:a1:51:f1:ac:73:13:14:39:13:57:40:20:0f:88:fc:86:
+        33:6a:8d:0b:2f:5b:8c:3c:a3:a1:0a:b3:da:eb:ef:00:d0:2a:
+        bb:a6:c6:3e:6a:1d:0b:9d:38:77:5c:4d:7e:f4:52:9e:8f:9d:
+        f1:1f:26:39:a6:7d:a3:2b:51:04:fe:79:2d:6d:34:59:8e:00:
+        89:a8:72:5f:7f:34:57:9b:04:c8:94:cd:69:e6:37:a8:be:22:
+        2f:41:e1:19:74:aa:58:57:d0:36:05:47:d8:57:61:fd:df:01:
+        bb:d1:19:42:2d:c9:9b:fe:8f:0b:a8:2a:ee:bc:91:c2:ed:30:
+        9f:e1:74:62:96:91:aa:2f:bc:c8:7e:38:30:38:49:5a:a3:f6:
+        28:9e:fe:cc:25:30:74:f5:dd:d5:16:b5:04:3b:c6:b7:bd:c4:
+        24:56:b8:e7:83:ea:f2:d2:b2:44:b3:a4:16:a3:3d:68:be:8e:
+        11:c8:4f:cb:c3:00:1f:72:ed:95:e3:ab:71:df:8a:d7:56:7d:
+        b1:80:7e:81:f2:e1:a2:d5:36:18:c0:e7:be:69:ba:21:9f:a8:
+        c9:11:be:34:e6:c8:c5:85:35:94:dc:11:65:60:95:62:aa:19:
+        23:cd:05:68:d1:52:5d:45:27:85:bd:4f:71:fb:5a:f1:e7:6f:
+        f4:3b:e8:2a:c4:5f:c1:fe:0d:ec:20:64:94:6b:df:6b:08:43:
+        15:e1:fc:76:ba:49:be:6e:1b:90:eb:a2:97:c9:e2:f8:1f:80:
+        ba:df:6c:ff:95:66:be:7d
+-----BEGIN CERTIFICATE-----
+MIIGiTCCBHGgAwIBAgIRAPo6jX6jesMW5sHVuhQMJC8wDQYJKoZIhvcNAQELBQAw
+MDELMAkGA1UEBhMCRVMxDzANBgNVBAoMBnRlbGVjbzEQMA4GA1UEAwwHUm9vdCBD
+QTAeFw0yNTAxMTAxNDIxMTZaFw0zNTAxMDgxNDIxMTZaMDYxCzAJBgNVBAYTAkVT
+MQ8wDQYDVQQKDAZ0ZWxlY28xFjAUBgNVBAMMDVN1YiBDQSBTZXJ2ZXIwggIiMA0G
+CSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDQNfmyeG/+wCl1AQREaoXf6AxZdXId
+1lo/O8y/mkejgwk0yKgbYj+GX0RWk4QiRd4jg9/DPyfc0hEA+Pw4E/Y81EIh7TvX
+AXRWFE2g68WiDJLU7n50RrMb4saA1TLZ9BVbH9vGjv+8jFFNgP5dhDyOfdkgqNrk
+T9SMQZLg7drs32ogxSUEkaorURa29mCK6UgzRa4DLKNLf1voaMF3pDD05/9wEUfl
+TmvP58cmeTKtYhDyEioQ4y7YB+/Sk5UClbz/Sw5HWcCZJITiEfbArFpxg+byYiEu
+A+HkuKisJM6NoEOwVLiD4iZwdHA8h7BtopvxMZRB1o/I0m8oiAlVYjBWY6QviuOP
+xe7aKmMREA8VFfxG+J5C5b6w0m/LUKTz3HI9LwPlwD4MTJOumAmj8JO8hnjyfyT+
+jgHz7kD+URNh9Ta0vupla371YNK/9P0DSKCxMyfpI7XgymRm6eFXo19F6vKEdGho
+jUrmfnSODyfZwwyftDc7k8F4eJgBIdVoBHvury1qbHxD66Y7Jvf1vxoWs+0+FuUJ
+X2FIDz2r6CcMvipJvfaY1JOLe3mKway5fy0mgKNHFieSdm7Ze+olbk1UaUbrqtX4
+neIEgVcohlK621k9ULqkOZQI2J+3DlObdLBKuImDOGYFtBp+s1X26UF/YqAVrS//
+RSbD/UawRHucaQIDAQABo4IBljCCAZIwdgYIKwYBBQUHAQEEajBoMDMGCCsGAQUF
+BzAChidodHRwOi8vcm9vdC1jYS50ZWxlY28udXZpZ28vcm9vdC1jYS5jcnQwMQYI
+KwYBBQUHMAGGJWh0dHA6Ly9vY3NwLnJvb3QtY2EudGVsZWNvLnV2aWdvOjkwODAw
+HwYDVR0jBBgwFoAU/iMDoxe1jZiTypZhH9vkrvkqKRcwEgYDVR0TAQH/BAgwBgEB
+/wIBADA4BgNVHR8EMTAvMC2gK6AphidodHRwOi8vcm9vdC1jYS50ZWxlY28udXZp
+Z28vcm9vdC1jYS5jcmwwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMA4G
+A1UdDwEB/wQEAwIBBjBbBgNVHR4EVDBSoB4wDYILZXhhbXBsZS5jb20wDYILZXhh
+bXBsZS5vcmehMDAKhwgAAAAAAAAAADAihyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAADAdBgNVHQ4EFgQUngaOU3bJOiw4pNgw9LaQMHwwHaswDQYJKoZI
+hvcNAQELBQADggIBAJdFB2zolFxS3Vi1rOICyFSxpehTnnkrm68vAbu7VJEciGwu
+qldlwd1uPZ55o3AejaMCu1kiUkh5rk3iPe4zOZP/3p/xQolOJfQcAoYbF+o80BWJ
+ADbMsQ8jzfI4H8i9etEt4lYl2i2enNfUfR8ZmuxoSc7DTpNAtpOBlDeB7C1/Izd7
+ArTRALGA4rTuvq5gxa5jsJUfmGwKlGHQvtOs6VOFQN9nnGYz7Bpq92DgOJMf1n/b
+PHZXg/ulF5QNgRdVol0QRIT5XR7Sr/CfdeQVZFFL5YRDJl0FIC7yoVHxrHMTFDkT
+V0AgD4j8hjNqjQsvW4w8o6EKs9rr7wDQKrumxj5qHQudOHdcTX70Up6PnfEfJjmm
+faMrUQT+eS1tNFmOAImocl9/NFebBMiUzWnmN6i+Ii9B4Rl0qlhX0DYFR9hXYf3f
+AbvRGUItyZv+jwuoKu68kcLtMJ/hdGKWkaovvMh+ODA4SVqj9iie/swlMHT13dUW
+tQQ7xre9xCRWuOeD6vLSskSzpBajPWi+jhHIT8vDAB9y7ZXjq3HfitdWfbGAfoHy
+4aLVNhjA575puiGfqMkRvjTmyMWFNZTcEWVglWKqGSPNBWjRUl1FJ4W9T3H7WvHn
+b/Q76CrEX8H+DewgZJRr32sIQxXh/Ha6Sb5uG5DropfJ4vgfgLrfbP+VZr59
+-----END CERTIFICATE-----

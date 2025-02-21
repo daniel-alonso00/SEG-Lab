@@ -1,0 +1,96 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            7e:8c:fc:e1:2c:de:bd:52:9d:34:9f:49:8a:b9:2e:97
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=ES, O=teleco, CN=Sub CA Server
+        Validity
+            Not Before: Jan 10 16:04:38 2025 GMT
+            Not After : Jan  8 16:04:38 2035 GMT
+        Subject: C=ES, O=teleco, CN=client1
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:d4:cd:5e:59:c3:e2:38:d0:f6:fa:bc:70:c5:7c:
+                    0f:00:4a:76:90:59:31:7e:e9:90:7d:a0:96:5a:32:
+                    85:ac:a8:73:69:e9:20:7a:f8:a2:80:9b:13:f4:b2:
+                    37:fe:15:dc:c7:8c:9f:91:dc:2c:5d:fe:1e:a1:60:
+                    c9:52:42:3b:b5:0a:99:80:71:fc:12:e0:d5:c1:73:
+                    4e:3a:5d:42:ae:20:6a:af:b9:9d:08:6d:04:aa:df:
+                    8b:a3:b7:41:64:5a:b5:5f:d0:9d:55:ef:f0:97:08:
+                    ac:ef:bf:21:1e:be:92:eb:8a:7b:a0:91:dc:48:e7:
+                    68:40:05:0a:e7:ba:99:3a:c7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            Authority Information Access: 
+                CA Issuers - URI:http://sub-ca-server.teleco.uvigo/sub-ca-server.crt
+                OCSP - URI:http://ocsp.sub-ca-server.teleco.uvigo:9080
+            X509v3 Authority Key Identifier: 
+                9E:06:8E:53:76:C9:3A:2C:38:A4:D8:30:F4:B6:90:30:7C:30:1D:AB
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Subject Key Identifier: 
+                33:85:9A:C5:DA:B2:A5:14:CD:90:E0:C5:08:70:E8:B5:E3:AB:9E:E5
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        bc:51:92:30:97:3c:95:69:30:e7:4f:f7:39:b0:fb:96:03:92:
+        03:d7:cc:0e:30:b8:43:4f:71:af:9c:06:41:c6:86:e0:20:30:
+        8f:65:44:2b:69:4b:93:33:d7:4d:27:d0:8d:74:80:12:94:06:
+        d8:94:e7:2b:4d:4c:1b:e4:44:17:62:b2:8e:9d:1e:28:33:be:
+        ee:a2:bc:95:de:01:9c:0f:f4:74:0b:59:79:89:26:26:5a:e0:
+        66:18:62:ac:58:eb:15:a8:a7:13:4c:9b:33:a8:60:60:f5:8b:
+        19:c5:27:08:1c:14:e8:32:6b:cf:01:3d:0e:89:b9:a6:b7:14:
+        ca:a9:f0:18:03:9d:cb:c8:6d:de:60:f2:af:37:e8:6f:cb:fe:
+        e3:d1:91:bb:e2:82:22:4f:a3:96:a7:05:3e:b2:89:18:14:b8:
+        c1:e7:20:c4:a8:f2:ce:09:7d:f3:be:80:7a:be:0b:e7:6d:62:
+        05:5f:80:3d:48:81:fb:ea:49:18:a7:63:5d:2b:eb:b8:79:d9:
+        9c:8f:7d:ba:37:7e:8e:0a:32:a9:bf:05:cc:04:78:42:f0:ea:
+        f6:35:cc:c5:b4:04:aa:60:03:ba:cf:74:37:44:70:bd:5e:2b:
+        71:51:1b:db:01:68:6a:ff:0b:35:85:f3:1a:25:19:6a:3d:db:
+        36:46:5b:0c:5a:9f:2c:16:0d:23:db:cb:ad:e8:b1:31:d3:cf:
+        a9:a7:7f:4e:5a:a0:d9:65:9b:f0:88:78:4f:79:58:ee:86:60:
+        02:7c:59:e3:49:80:f3:b2:db:6f:53:4e:ba:71:f8:e3:a9:75:
+        e2:ea:cf:50:63:ef:c3:34:db:7e:ec:16:66:f1:47:d6:2a:74:
+        46:e1:47:f3:56:49:94:a0:68:c0:c7:ae:71:2e:92:3c:38:d5:
+        3f:7b:8c:0d:71:ee:2d:ab:bb:a5:d9:72:1f:9a:b4:ab:ea:92:
+        45:5b:f4:7a:38:90:86:2d:d5:53:93:6b:d4:3d:d9:ec:ac:4a:
+        34:45:1c:f8:f3:71:23:e4:11:ad:6b:b6:0a:1d:44:38:8f:d6:
+        01:13:61:29:b9:b9:e3:71:87:5f:89:74:e8:12:62:bd:79:07:
+        5f:18:29:9e:91:03:0a:4e:2f:d2:04:ef:2b:6f:68:14:5b:a9:
+        01:a2:f3:2d:3b:03:1d:1e:a2:fa:8b:36:04:6c:ed:b2:55:9d:
+        97:74:57:db:89:2d:b7:fe:0e:e0:1f:18:57:de:90:ba:27:ce:
+        7d:88:cb:11:bf:62:88:15:1a:ec:4a:ce:c0:6d:f8:2c:ab:4e:
+        63:14:4b:24:aa:24:a8:b7:91:e6:a0:96:bf:e8:e8:b0:9b:f9:
+        3d:4e:37:56:1d:88:02:76
+-----BEGIN CERTIFICATE-----
+MIIEbzCCAlegAwIBAgIQfoz84SzevVKdNJ9JirkulzANBgkqhkiG9w0BAQsFADA2
+MQswCQYDVQQGEwJFUzEPMA0GA1UECgwGdGVsZWNvMRYwFAYDVQQDDA1TdWIgQ0Eg
+U2VydmVyMB4XDTI1MDExMDE2MDQzOFoXDTM1MDEwODE2MDQzOFowMDELMAkGA1UE
+BhMCRVMxDzANBgNVBAoMBnRlbGVjbzEQMA4GA1UEAwwHY2xpZW50MTCBnzANBgkq
+hkiG9w0BAQEFAAOBjQAwgYkCgYEA1M1eWcPiOND2+rxwxXwPAEp2kFkxfumQfaCW
+WjKFrKhzaekgeviigJsT9LI3/hXcx4yfkdwsXf4eoWDJUkI7tQqZgHH8EuDVwXNO
+Ol1CriBqr7mdCG0Eqt+Lo7dBZFq1X9CdVe/wlwis778hHr6S64p7oJHcSOdoQAUK
+57qZOscCAwEAAaOCAQEwgf4wgYgGCCsGAQUFBwEBBHwwejA/BggrBgEFBQcwAoYz
+aHR0cDovL3N1Yi1jYS1zZXJ2ZXIudGVsZWNvLnV2aWdvL3N1Yi1jYS1zZXJ2ZXIu
+Y3J0MDcGCCsGAQUFBzABhitodHRwOi8vb2NzcC5zdWItY2Etc2VydmVyLnRlbGVj
+by51dmlnbzo5MDgwMB8GA1UdIwQYMBaAFJ4GjlN2yTosOKTYMPS2kDB8MB2rMAwG
+A1UdEwEB/wQCMAAwEwYDVR0lBAwwCgYIKwYBBQUHAwIwDgYDVR0PAQH/BAQDAgeA
+MB0GA1UdDgQWBBQzhZrF2rKlFM2Q4MUIcOi146ue5TANBgkqhkiG9w0BAQsFAAOC
+AgEAvFGSMJc8lWkw50/3ObD7lgOSA9fMDjC4Q09xr5wGQcaG4CAwj2VEK2lLkzPX
+TSfQjXSAEpQG2JTnK01MG+REF2Kyjp0eKDO+7qK8ld4BnA/0dAtZeYkmJlrgZhhi
+rFjrFainE0ybM6hgYPWLGcUnCBwU6DJrzwE9Dom5prcUyqnwGAOdy8ht3mDyrzfo
+b8v+49GRu+KCIk+jlqcFPrKJGBS4wecgxKjyzgl9876Aer4L521iBV+APUiB++pJ
+GKdjXSvruHnZnI99ujd+jgoyqb8FzAR4QvDq9jXMxbQEqmADus90N0RwvV4rcVEb
+2wFoav8LNYXzGiUZaj3bNkZbDFqfLBYNI9vLreixMdPPqad/Tlqg2WWb8Ih4T3lY
+7oZgAnxZ40mA87Lbb1NOunH446l14urPUGPvwzTbfuwWZvFH1ip0RuFH81ZJlKBo
+wMeucS6SPDjVP3uMDXHuLau7pdlyH5q0q+qSRVv0ejiQhi3VU5Nr1D3Z7KxKNEUc
++PNxI+QRrWu2Ch1EOI/WARNhKbm543GHX4l06BJivXkHXxgpnpEDCk4v0gTvK29o
+FFupAaLzLTsDHR6i+os2BGztslWdl3RX24ktt/4O4B8YV96QuifOfYjLEb9iiBUa
+7ErOwG34LKtOYxRLJKokqLeR5qCWv+josJv5PU43Vh2IAnY=
+-----END CERTIFICATE-----
